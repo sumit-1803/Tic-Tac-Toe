@@ -1,0 +1,57 @@
+#controls{
+    display: flex;
+    justify-content: center;
+        
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+#gameboard{
+    margin-bottom: 5px;
+    
+}
+.square{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 136px;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+}
+.square:hover{
+    background-color: #afafaf;
+}
+
+#gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+div#message{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    
+}
