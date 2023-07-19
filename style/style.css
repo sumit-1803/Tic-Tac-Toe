@@ -55,3 +55,24 @@ button:hover{
     cursor: pointer;
     
 }
+
+
+@media screen and (max-width:500px)
+ {
+    h1{
+        font-size: 25px;
+    }
+    .square{
+        height: 30px;
+        width: 60px;
+        font-size: medium;
+
+    }
+    #gameboard{
+        padding: 5px;
+        margin: 5px;
+    }
+    input{
+        width: 50px;
+    }
+}
